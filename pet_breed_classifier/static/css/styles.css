@@ -1,0 +1,32 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: grid;
+    grid-template-rows: 0.30fr 2fr 0.25fr;
+
+    height: 100vh;
+}
+
+header {
+    background-color: black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    color: white;
+    font-size: 30px;
+}
+
+main {
+    background-color: #111000;
+}
+
+footer {
+    background-color: black;
+}
